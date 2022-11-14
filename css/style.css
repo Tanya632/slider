@@ -1,0 +1,240 @@
+/* yeseva-one-regular - latin */
+@font-face {
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    src: local(''),
+         url('../fonts/yeseva-one-v20-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/yeseva-one-v20-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* nunito-sans-regular - latin */
+@font-face {
+  font-family: 'Nunito Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local(''),
+       url('../fonts/nunito-sans-v12-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('../fonts/nunito-sans-v12-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+html { 
+  box-sizing: border-box;
+} 
+  *, *::before, *::after {
+    box-sizing: inherit;
+}
+
+
+body {
+  font-family: 'Yeseva One';
+  font-style: normal;
+  font-size: 16px;
+  line-height: 1.2;
+  font-weight: normal;
+  color: #E3B873;
+  
+}
+
+  
+.img {
+   max-width: 100%;
+   height: auto;
+}
+  
+.wrapper {
+  max-width: 1236px;
+  margin: 0 auto;
+  padding: 0 15px;
+        
+}
+  
+a {
+  cursor: pointer;
+}
+
+
+
+/*conteiner2*/
+  
+.wrapper__completed {
+  position: relative;
+  height: 785px;
+  max-width: 100vw;
+  background-color: black;
+}
+
+
+.wrapper__head {
+  margin-bottom:56px;
+}
+
+
+.head__nav {
+  padding-top: 107px;
+}
+
+.head__list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: end;
+  
+}
+
+.head__item {
+  margin-right: 53px;
+}
+
+
+.head__link {
+  font-family: 'Yeseva One';
+  font-size: 14px;
+  line-height: 19px;
+  text-decoration: none;
+  color: #FFF;
+  
+}
+
+.color {
+  color:#E3B873
+
+}
+
+/*completed*/
+
+.wrap__completed {
+  display: grid;
+  grid-template-columns: 45% 55%;
+
+  
+}
+
+.completed__title {
+  font-family: 'Yeseva One';
+  font-size: 26px;
+  line-height: 38px;
+  color: #E3B873;
+  max-width: 253px;
+  
+}
+
+.completed__subtitle {
+  font-family: 'Nunito Sans';
+  font-size: 13px;
+  line-height: 27px;
+  color: #FFF;
+  max-width: 442px;
+  margin-top: 50px;
+ 
+}
+
+
+.wrap__des {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin-top: 42px;
+  grid-column-gap: 60px;
+  margin-bottom: 40px;
+
+}
+
+.size__namber {
+  font-family: 'Yeseva One';
+  font-size: 16px;
+  line-height: 25px;
+  margin-bottom: 9px;
+
+}
+
+.text-sm {
+  font-family: 'Nunito Sans';
+  font-size: 13px;
+  line-height: 21px;
+  margin-bottom: 34px;
+  color: #FFF;
+}
+
+/*slider*/
+
+.slider-arrow {
+ height: 30px;
+ justify-content:flex-start;
+ color: #FFF;
+
+}
+
+.arrow-prev, .arrow-next {
+  background: none;
+  padding: 0;
+}
+
+
+.stroke1 {
+  position: relative;
+  bottom: 6px;
+  right: 10px;
+  margin-right: 56px;
+  cursor: pointer;
+  
+
+}
+
+.dots {
+  margin-right: 16px;
+  cursor: pointer;
+  transition: background 0.4s ease;
+  background-color: rgba(255, 255, 255, .3);
+  border-radius: 50%;
+
+}
+
+.dots:hover, .stroke1:hover, .stroke2:hover {background: #FFF; transition: background 0.4s ease;}
+.dots:active, .stroke1:active, .stroke2:active {opacity: .7; transition: background 0.4s ease;}
+ 
+
+.active {
+  background: #FFF;
+}
+
+.activecolor {
+  color: #E3B873;
+
+
+}
+  
+
+
+.stroke2 {
+  position: relative;
+  bottom: 6px;
+  left:10px;
+  margin-left: 40px;
+  cursor: pointer;
+  transition: background 0.4s ease;
+}
+
+.slider-wrapper {
+  overflow: hidden;
+  width: 679px;
+
+ 
+
+}
+
+.slider-line {
+  display: flex;
+  position: relative;
+
+  
+}
+
+
+
+  
+
+
+  
+
+
+
+  
